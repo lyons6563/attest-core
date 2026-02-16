@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Decision Engine Recorder",
+  "version": "1.0.0",
+  "description": "Logs Claude AI chat activity to Decision Engine recorder",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://claude.ai/*",
+    "https://*.claude.ai/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://*.claude.ai/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,41 @@
+TxnID,OrderRef,Txn_Date,Amount_USD,Customer,Memo
+TXN-1000,ORD-2000,2025-01-02,100.00,CUST-1,Standard charge
+TXN-1001,ORD2001,01/04/2025,105.00,CUST-2,Standard charge
+TXN-1002,ORD-2002,06-Jan-2025,110.00,CUST-3,Standard charge
+TXN-1003,ORD2003,2025/01/08,115.00,CUST-4,Standard charge
+TXN-1004,ORD-2004,2025-01-10,120.00,CUST-1,Standard charge
+TXN-1005,ORD2005,01/12/2025,125.00,CUST-2,Standard charge
+TXN-1006,ORD-2006,14-Jan-2025,130.00,CUST-3,Standard charge
+TXN-1007,ORD2007,2025/01/16,135.00,CUST-4,Standard charge
+TXN-1008,ORD-2008,2025-01-18,140.00,CUST-1,Standard charge
+TXN-1009,ORD2009,01/20/2025,145.00,CUST-2,Standard charge
+TXN-B300,BATCH-1,01-Feb-2025,75.00,CUST-1,Batched settlement
+TXN-B301,BATCH-1,2025/02/02,85.00,CUST-2,Batched settlement
+TXN-B302,BATCH-1,2025-02-03,95.00,CUST-3,Batched settlement
+TXN-B303,BATCH-2,02/04/2025,75.00,CUST-4,Batched settlement
+TXN-B304,BATCH-2,05-Feb-2025,85.00,CUST-5,Batched settlement
+TXN-B305,BATCH-2,2025/02/06,95.00,CUST-1,Batched settlement
+TXN-B306,BATCH-3,2025-02-07,75.00,CUST-2,Batched settlement
+TXN-B307,BATCH-3,02/08/2025,85.00,CUST-3,Batched settlement
+TXN-L400,ORD-L400,21-Feb-2025,220.00,CUST-1,Delayed posting expected
+TXN-L401,ORDL401,2025/02/23,227.00,CUST-2,Delayed posting expected
+TXN-L402,ORD-L402,2025-02-25,234.00,CUST-3,Delayed posting expected
+TXN-L403,ORDL403,02/27/2025,241.00,CUST-4,Delayed posting expected
+TXN-L404,ORD-L404,01-Mar-2025,220.00,CUST-5,Delayed posting expected
+TXN-L405,ORDL405,2025/03/03,227.00,CUST-6,Delayed posting expected
+TXN-L406,ORD-L406,2025-03-05,234.00,CUST-1,Delayed posting expected
+TXN-L407,ORDL407,03/07/2025,241.00,CUST-2,Delayed posting expected
+TXN-MA500,ORD-MA500,13-Mar-2025,180.00,CUST-1,Missing in cash ledger
+TXN-MA501,ORDMA501,2025/03/14,191.00,CUST-2,Missing in cash ledger
+TXN-MA502,ORD-MA502,2025-03-15,202.00,CUST-3,Missing in cash ledger
+TXN-MA503,ORDMA503,03/16/2025,180.00,CUST-4,Missing in cash ledger
+TXN-MA504,ORD-MA504,17-Mar-2025,191.00,CUST-1,Missing in cash ledger
+TXN-MA505,ORDMA505,2025/03/18,202.00,CUST-2,Missing in cash ledger
+TXN-MA506,ORD-MA506,2025-03-19,180.00,CUST-3,Missing in cash ledger
+TXN-MA507,ORDMA507,03/20/2025,191.00,CUST-4,Missing in cash ledger
+TXN-A600,REF-900,02-Apr-2025,150.0,CUST-1,Ambiguous matching candidate
+TXN-A601,REF901,2025/04/03,150.0,CUST-2,Ambiguous matching candidate
+TXN-A602,REF-902,2025-04-04,150.0,CUST-3,Ambiguous matching candidate
+TXN-A603,REF903,04/05/2025,150.5,CUST-1,Ambiguous matching candidate
+TXN-A604,REF-904,06-Apr-2025,150.5,CUST-2,Ambiguous matching candidate
+TXN-A605,REF905,2025/04/07,150.5,CUST-3,Ambiguous matching candidate
