@@ -1,0 +1,12 @@
+# Direct dependencies for attest-core custody chain API
+
+# API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Testing
+pytest>=8.0.0

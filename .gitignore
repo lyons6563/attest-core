@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+dist/
+
+# Virtual env
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated artifacts (not source)
+decision_attestation_receipt.zip
+data/*.csv
+data/*.json
+
+# Local DB / runtime
+*.db
